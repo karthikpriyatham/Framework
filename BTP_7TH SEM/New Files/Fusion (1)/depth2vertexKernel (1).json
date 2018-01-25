@@ -1,0 +1,65 @@
+{
+    "ecos": {
+        "128": 15.0, 
+        "256": 15.0, 
+        "512": 15.0, 
+        "1024": 15.0, 
+        "2048": 15.0, 
+        "4096": 15.0, 
+        "8192": 15.0
+    }, 
+    "globalWorkSize": "[dataset,dataset]",
+    "name": "depth2vertexKernel", 
+    "inputBuffers": [
+        {
+            "break": 1, 
+            "pos": 2, 
+            "size": "dataset**2", 
+            "type": "float"
+        }
+    ], 
+    "outputBuffers": [
+        {
+            "break": 1, 
+            "pos": 0, 
+            "size": "dataset", 
+            "type": "float"
+        }
+    ], 
+
+    "partition": 10, 
+    "src": "depth2vertexKernel.cl", 
+    "varArguments": [
+        {
+            "pos": 1, 
+            "type": "uint2", 
+            "value": "[1,1]"
+        },
+        {
+            "pos": 3, 
+            "type": "uint2", 
+            "value": "[1,1]"
+        },
+        {
+            "pos": 4, 
+            "type": "float4", 
+            "value": "[1,1,1,1]"
+        },
+	{
+            "pos": 5, 
+            "type": "float4", 
+            "value": "[1,1,1,1]"
+        },        
+	{
+            "pos": 6, 
+            "type": "float4", 
+            "value": "[1,1,1,1]"
+        },
+	{
+            "pos": 7, 
+            "type": "float4", 
+            "value": "[1,1,1,1]"
+        }
+    ], 
+    "workDimension": 2
+}

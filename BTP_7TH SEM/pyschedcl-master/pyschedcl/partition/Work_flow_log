@@ -1,0 +1,27 @@
+Need to add input functions 
+Test every function individually 
+Test fusion of different kernels
+Test DAG 
+
+
+logs 
+
+adding a field named inputfile , outputfile field in json file
+checking for these flags in pyschedcl kernel class init function
+
+Added a new function called loaddatafromfile in pyschedcl.py
+
+added a way to dump image output in notifycallback cbstatus function 
+
+
+
+Fusion.py in partition folder added and 
+
+	Adding get optimal patrtition function 
+	Adding fusion code that will get us optimal partition
+	
+
+testing files one by one
+
+1) uchar4tofloat4.cl 
+	

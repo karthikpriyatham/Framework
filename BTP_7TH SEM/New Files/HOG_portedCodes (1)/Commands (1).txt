@@ -1,0 +1,8 @@
+ Enter these in terminal 
+    Executing commands :: 1)  g++ JSonGenerator_Main_Function.cpp HOGImage.cpp HOGImage.h -Wno-write-strings  -lfreeimage
+                          2)  clear && ./a.out > Output.txt
+
+
+    If the above 2 commands return an error such as install freeimage.h , you can do it via
+    First Install Free Image library via :
+        sudo apt-get install libfreeimage-dev

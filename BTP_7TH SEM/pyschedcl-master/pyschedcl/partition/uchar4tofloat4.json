@@ -1,0 +1,49 @@
+{
+    "ecos": {
+            "128": 15.0,
+            "256": 15.0,
+            "512": 15.0,
+            "1024": 15.0,
+            "2048": 15.0,
+            "4096": 15.0,
+            "8192": 15.0
+        },
+        "id" :1,
+        "partition" : 10,
+        "workDimension" : "2",
+        "globalWorkSize": "[dataset,dataset]",
+        "name" : "uchar4tofloat4",
+        "src" : "uchar4tofloat4.cl",
+        "inputBuffers" : [
+            {
+                "break":1,
+                "pos":0,
+                "size":"dataset**2",
+                "type":"uchar4"
+            }
+        ],
+        "ioBuffers" : [
+            {
+                "break":1,
+                "pos":1,
+                "size":"dataset**2",
+                "type":"float4"
+            }
+        ],
+        "varArguments":[
+            {
+                "pos":2,
+                "type":"int",
+                "value":"746"
+            },
+            {
+                "pos":3,
+                "type":"int",
+                "value":"560"
+            }
+        ]
+
+
+}
+
+    

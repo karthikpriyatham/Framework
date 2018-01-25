@@ -1,0 +1,329 @@
+[
+
+	
+	{
+    		"ecos": 
+		{
+       			"128": 15.0, 
+       			"256": 15.0, 
+       			"512": 15.0, 
+ 			"1024": 15.0, 
+       			"2048": 15.0, 
+       			"4096": 15.0, 
+       			"8192": 15.0
+  		}, 
+    		"globalWorkSize": "[dataset,dataset]",  
+		"id": "1",
+    		"outputBuffers": 
+		[
+        		{
+            			"break": 1, 
+            			"pos": 1, 
+            			"size": "dataset**2", 
+            			"type": "uchar4"
+        		}
+    		],
+    		"name": "float4toUchar4", 
+    		"inputBuffers": 
+		[
+        		{
+            			"break": 1, 
+            			"pos": 0, 
+           		 	"size": "dataset**2", 
+            			"type": "float4"
+        		}	
+    		], 
+    		"partition": 10, 
+    		"src": "float4toUchar4.cl", 
+    		"varArguments": 	
+		[
+        		{
+        		    "pos": 2, 
+        		    "type": "int", 
+            		    "value": "1920"
+        		},
+        		{
+        		    "pos": 3, 
+            		    "type": "int", 
+            		    "value": "1440"
+        		}	
+       
+    		], 
+    		"workDimension": 2
+
+	},
+	{
+    		"ecos": 
+		{
+       			"128": 15.0, 
+       			"256": 15.0, 
+       			"512": 15.0, 
+ 			"1024": 15.0, 
+       			"2048": 15.0, 
+       			"4096": 15.0, 
+       			"8192": 15.0
+  		}, 
+    		"globalWorkSize": "[dataset,dataset]",  
+		"id": "2",
+    		"outputBuffers": 
+		[
+        		{
+            			"break": 1, 
+            			"pos": 1, 
+            			"size": "dataset**2", 
+            			"type": "uchar4"
+        		}
+    		],
+    		"name": "float2toUchar4", 
+    		"inputBuffers": 
+		[
+        		{
+            			"break": 1, 
+            			"pos": 0, 
+           		 	"size": "dataset**2", 
+            			"type": "float2"
+        		}	
+    		], 
+    		"partition": 10, 
+    		"src": "float2toUchar4.cl", 
+    		"varArguments": 	
+		[
+        		{
+        		    "pos": 2, 
+        		    "type": "int", 
+            		    "value": "1920"
+        		},
+        		{
+        		    "pos": 3, 
+            		    "type": "int", 
+            		    "value": "1440"
+        		}	
+       
+    		], 
+    		"workDimension": 2
+
+	},
+	{
+    		"ecos": 
+		{
+       			"128": 15.0, 
+       			"256": 15.0, 
+       			"512": 15.0, 
+ 			"1024": 15.0, 
+       			"2048": 15.0, 
+       			"4096": 15.0, 
+       			"8192": 15.0
+  		}, 
+    		"globalWorkSize": "[dataset,dataset]",  
+		"id": "3",
+    		"outputBuffers": 
+		[
+        		{
+            			"break": 1, 
+            			"pos": 1, 
+            			"size": "dataset**2", 
+            			"type": "uchar4"
+        		}
+    		],
+    		"name": "float1toUchar4", 
+    		"inputBuffers": 
+		[
+        		{
+            			"break": 1, 
+            			"pos": 0, 
+           		 	"size": "dataset**2", 
+            			"type": "float1"
+        		}	
+    		], 
+    		"partition": 10, 
+    		"src": "float1toUchar4.cl", 
+    		"varArguments": 	
+		[
+        		{
+        		    "pos": 2, 
+        		    "type": "int", 
+            		    "value": "1920"
+        		},
+        		{
+        		    "pos": 3, 
+            		    "type": "int", 
+            		    "value": "1440"
+        		}	
+       
+    		], 
+    		"workDimension": 2
+
+	},
+	{
+    		"ecos": 
+		{
+       			"128": 15.0, 
+       			"256": 15.0, 
+       			"512": 15.0, 
+ 			"1024": 15.0, 
+       			"2048": 15.0, 
+       			"4096": 15.0, 
+       			"8192": 15.0
+  		}, 
+    		"globalWorkSize": "[dataset,dataset]",  
+		"id": "4",
+    		"outputBuffers": 
+		[
+        		{
+            			"break": 1, 
+            			"pos": 1, 
+            			"size": "dataset**2", 
+            			"type": "uchar1"
+        		}
+    		],
+    		"name": "float1toUchar1", 
+    		"inputBuffers": 
+		[
+        		{
+            			"break": 1, 
+            			"pos": 0, 
+           		 	"size": "dataset**2", 
+            			"type": "float1"
+        		}	
+    		], 
+    		"partition": 10, 
+    		"src": "float1toUchar1.cl", 
+    		"varArguments": 	
+		[
+        		{
+        		    "pos": 2, 
+        		    "type": "int", 
+            		    "value": "1920"
+        		},
+        		{
+        		    "pos": 3, 
+            		    "type": "int", 
+            		    "value": "1440"
+        		}	
+       
+    		], 
+    		"workDimension": 2
+
+	},
+	{
+    		"ecos": 
+		{
+       			"128": 15.0, 
+       			"256": 15.0, 
+       			"512": 15.0, 
+ 			"1024": 15.0, 
+       			"2048": 15.0, 
+       			"4096": 15.0, 
+       			"8192": 15.0
+  		}, 
+    		"globalWorkSize": "[dataset,dataset]",  
+		"id": "5",
+    		"outputBuffers": 
+		[
+        		{
+            			"break": 1, 
+            			"pos": 1, 
+            			"size": "dataset**2", 
+            			"type": "float4"
+        		}
+    		],
+    		"name": "uchar4tofloat4", 
+    		"inputBuffers": 
+		[
+        		{
+            			"break": 1, 
+            			"pos": 0, 
+           		 	"size": "dataset**2", 
+            			"type": "uchar4"
+        		}	
+    		], 
+    		"partition": 10, 
+    		"src": "uchar4toflaot4.cl", 
+    		"varArguments": 	
+		[
+        		{
+        		    "pos": 2, 
+        		    "type": "int", 
+            		    "value": "1920"
+        		},
+        		{
+        		    "pos": 3, 
+            		    "type": "int", 
+            		    "value": "1440"
+        		}	
+       
+    		], 
+    		"workDimension": 2
+
+	},
+
+	
+	
+	{
+    		"ecos": 
+		{
+       			"128": 15.0, 
+       			"256": 15.0, 
+       			"512": 15.0, 
+ 			"1024": 15.0, 
+       			"2048": 15.0, 
+       			"4096": 15.0, 
+       			"8192": 15.0
+  		}, 
+    		"globalWorkSize": "[dataset,dataset]",  
+		"id": "",
+    		"outputBuffers": 
+		[
+        		{
+            			"break": 1, 
+            			"pos": 0,
+            			"size": "dataset**2", 
+            			"type": "float4"
+        		}
+    		],
+    		"name": "resizeFastBicubic4", 
+    		"inputBuffers": 
+		[
+        		{
+            			"break": 1, 
+            			"pos": , 
+           		 	"size": "dataset**2", 
+            			"type": "float4"
+        		}	
+    		], 
+    		"partition": 10, 
+    		"src": "resizeFastBicubic4.cl", 
+    		"varArguments": 	
+		[
+        		{
+        		    "pos": 2, 
+        		    "type": "int", 
+            		    "value": "1920"
+        		},
+        		{
+        		    "pos": 3, 
+            		    "type": "int", 
+            		    "value": "1440"
+        		},
+			{
+			    "pos":4,
+			    "type": "float",
+			    "value": "1.0",
+			    "_comment": "The value is (scaleRatio^i) -> iteration and is 1 for now ",
+			}
+
+    		], 
+    		"workDimension": 2
+
+	},
+
+	
+	
+
+		
+	
+
+
+
+
+]
